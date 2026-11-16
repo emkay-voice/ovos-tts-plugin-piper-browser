@@ -53,8 +53,10 @@ class PiperBrowserTTS(TTS):
         voice = voice if voice and voice != "default" else self.config.get("voice") or voice_for(lang)
         if not voice:
             raise ValueError(f"no Piper voice for {lang}")
-        if not run_sync(js.emkayPiper.ready(voice)):
-            # downloading now; speech.py lets tts.fallback_module say this one
+        if not run_sync(js.emkayPiper.ready(voice)) and not self.config.get("wait_for_download"):
+            # downloading now; speech.py lets tts.fallback_module say this one.
+            # With "wait_for_download" (no network to fall back on, e.g.
+            # Emkay's local only mode) synth() below waits for the voice.
             raise RuntimeError(f"the Piper voice {voice} is still downloading")
         data = run_sync(js.emkayPiper.synth(sentence, voice, int(self.config.get("speaker", 0))))
         with open(wav_file, "wb") as f:

@@ -51,6 +51,11 @@ OVOS where Python can wait for JavaScript.
 OVOS' language: English (US and GB), Danish, German, Spanish, French, Italian,
 Dutch, Portuguese (Portugal and Brazil), Catalan and Basque.
 
+The first time, the voice downloads (tens of MB) and the plugin fails that
+sentence so `fallback_module` says it. With `"wait_for_download": true` it
+waits for the voice instead; for when there is no network to fall back on
+(Emkay's "local only" mode sets it).
+
 ## License
 
 Apache-2.0. espeak-ng, inside piper-wasm, is GPL-3.0; each Piper voice has the
