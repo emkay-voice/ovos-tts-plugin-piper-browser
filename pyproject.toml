@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-tts-plugin-piper-browser"
+version = "0.1.0a1"
+description = "OpenVoiceOS TTS plugin: Piper voices made in the browser, in WebAssembly"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "Andreas Lorensen"}]
+requires-python = ">=3.10"
+keywords = ["ovos", "openvoiceos", "plugin", "tts", "text-to-speech", "piper", "webassembly", "pyodide", "offline", "emkay"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Environment :: WebAssembly :: Emscripten",
+]
+dependencies = [
+    "ovos-plugin-manager>=0.0.26",
+    "ovos-utils>=0.0.38",
+]
+
+[project.urls]
+Homepage = "https://github.com/emkay-voice/ovos-tts-plugin-piper-browser"
+Issues = "https://github.com/emkay-voice/ovos-tts-plugin-piper-browser/issues"
+Emkay = "https://github.com/emkay-voice/emkay"
+
+[project.entry-points."opm.tts"]
+ovos-tts-plugin-piper-browser = "ovos_tts_plugin_piper_browser:PiperBrowserTTS"
+
+[tool.setuptools]
+packages = ["ovos_tts_plugin_piper_browser"]
