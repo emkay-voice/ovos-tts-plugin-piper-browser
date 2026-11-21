@@ -23,7 +23,8 @@ in the same Web Worker as OVOS:
 
 Until the voice is ready, the plugin raises, and the host speaks with
 `tts.fallback_module` instead (Emkay does), so OVOS is never silent while a
-voice downloads: about 63 MB, plus 18 MB of espeak-ng data the first time.
+voice downloads: about 63 MB (English: 20 MB), plus 18 MB of espeak-ng data
+the first time.
 
 A host provides, as a global the worker's Python can reach (`js`):
 
@@ -49,7 +50,9 @@ OVOS where Python can wait for JavaScript.
 
 `voice` is a piper-voices name. Without one, the plugin takes the voice for
 OVOS' language: English (US and GB), Danish, German, Spanish, French, Italian,
-Dutch, Portuguese (Portugal and Brazil), Catalan and Basque.
+Dutch, Portuguese (Portugal and Brazil), Catalan and Basque. English is
+`en_GB-alan-low`, Alan - the voice OpenVoiceOS speaks with by default, and
+Mycroft's before it.
 
 The first time, the voice downloads (tens of MB) and the plugin fails that
 sentence so `fallback_module` says it. With `"wait_for_download": true` it

@@ -18,10 +18,12 @@ PLUGIN = "ovos-tts-plugin-piper-browser"
 
 #: one voice per language Emkay has intents for (medium quality, ~63 MB
 #: each, where piper-voices has one); a language without one here falls
-#: back to the TTS plugin in `tts.fallback_module`
+#: back to the TTS plugin in `tts.fallback_module`. English is Alan, the
+#: voice OpenVoiceOS speaks with by default (its public Piper servers) and
+#: Mycroft's own before it - low quality, ~20 MB, as OVOS has it
 VOICES = {
-    "en-us": "en_US-lessac-medium",
-    "en-gb": "en_GB-alba-medium",
+    "en-us": "en_GB-alan-low",
+    "en-gb": "en_GB-alan-low",
     "da-dk": "da_DK-talesyntese-medium",
     "de-de": "de_DE-thorsten-medium",
     "es-es": "es_ES-davefx-medium",
