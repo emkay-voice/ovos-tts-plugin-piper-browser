@@ -23,8 +23,7 @@ in the same Web Worker as OVOS:
 
 Until the voice is ready, the plugin raises, and the host speaks with
 `tts.fallback_module` instead (Emkay does), so OVOS is never silent while a
-voice downloads: about 63 MB (English: 20 MB), plus 18 MB of espeak-ng data
-the first time.
+voice downloads: about 63 MB, plus 18 MB of espeak-ng data the first time.
 
 A host provides, as a global the worker's Python can reach (`js`):
 
