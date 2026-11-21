@@ -20,7 +20,8 @@ PLUGIN = "ovos-tts-plugin-piper-browser"
 #: each, where piper-voices has one); a language without one here falls
 #: back to the TTS plugin in `tts.fallback_module`. English is Alan, the
 #: voice OpenVoiceOS speaks with by default (its public Piper servers) and
-#: Mycroft's own before it - low quality, ~20 MB, as OVOS has it
+#: Mycroft's own before it ("low" is its sample rate, 16 kHz; the
+#: download is ~63 MB like the others)
 VOICES = {
     "en-us": "en_GB-alan-low",
     "en-gb": "en_GB-alan-low",
