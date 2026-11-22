@@ -8,7 +8,7 @@ version = "0.1.0a3"
 description = "OpenVoiceOS TTS plugin: Piper voices made in the browser, in WebAssembly"
 readme = "README.md"
 license = {text = "Apache-2.0"}
-authors = [{name = "Andreas Lorensen"}]
+authors = [{name = "emkay-voice"}]
 requires-python = ">=3.10"
 keywords = ["ovos", "openvoiceos", "plugin", "tts", "text-to-speech", "piper", "webassembly", "pyodide", "offline", "emkay"]
 classifiers = [
