@@ -1,0 +1,10 @@
+{
+ "piperbrowser.title": "Voix Piper",
+ "piperbrowser.intro": "Une voix Piper produite sur l'appareil, dans le navigateur. Elle se télécharge une fois ; ensuite rien ne quitte l'appareil pour parler.",
+ "piperbrowser.voice": "Voix",
+ "piperbrowser.voice.hint": "Un nom de piper-voices, comme fr_FR-siwis-medium. Vide : la voix de la langue de l'appareil.",
+ "piperbrowser.speaker": "Locuteur",
+ "piperbrowser.speaker.hint": "Pour une voix à plusieurs locuteurs ; 0 est le premier.",
+ "piperbrowser.wait.hint": "Désactivé : tant que la voix n'est pas téléchargée, la voix de secours parle. Activé : elle attend, pour un appareil sans réseau de secours.",
+ "piperbrowser.wait": "Attendre le téléchargement"
+}

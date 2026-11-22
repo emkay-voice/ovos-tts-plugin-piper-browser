@@ -1,0 +1,10 @@
+{
+ "piperbrowser.title": "Piper-stemme",
+ "piperbrowser.intro": "En Piper-stemme lavet på enheden, i browseren. Den hentes én gang; derefter forlader intet enheden, når den taler.",
+ "piperbrowser.voice": "Stemme",
+ "piperbrowser.voice.hint": "Et navn fra piper-voices, fx da_DK-talesyntese-medium. Tom: stemmen til enhedens sprog.",
+ "piperbrowser.speaker": "Taler",
+ "piperbrowser.speaker.hint": "Til en stemme med mere end én taler; 0 er den første.",
+ "piperbrowser.wait.hint": "Fra: indtil stemmen er hentet, taler reservestemmen. Til: den venter, til en enhed uden netværk at falde tilbage på.",
+ "piperbrowser.wait": "Vent på downloaden"
+}

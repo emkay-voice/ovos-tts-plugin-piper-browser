@@ -1,0 +1,10 @@
+{
+ "piperbrowser.title": "Veu Piper",
+ "piperbrowser.intro": "Una veu Piper feta al dispositiu, al navegador. Es baixa un cop; després res no surt del dispositiu per parlar.",
+ "piperbrowser.voice": "Veu",
+ "piperbrowser.voice.hint": "Un nom de piper-voices, com ca_ES-upc_ona-medium. Buit: la veu de la llengua del dispositiu.",
+ "piperbrowser.speaker": "Parlant",
+ "piperbrowser.speaker.hint": "Per a una veu amb més d'un parlant; 0 és el primer.",
+ "piperbrowser.wait.hint": "Desactivat: fins que la veu s'hagi baixat, parla la veu de reserva. Activat: espera, per a un dispositiu sense xarxa de reserva.",
+ "piperbrowser.wait": "Esperar la baixada"
+}

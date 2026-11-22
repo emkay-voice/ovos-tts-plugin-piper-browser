@@ -1,0 +1,10 @@
+{
+ "piperbrowser.title": "Voz Piper",
+ "piperbrowser.intro": "Uma voz Piper feita no dispositivo, no navegador. Transfere-se uma vez; depois nada sai do dispositivo para falar.",
+ "piperbrowser.voice": "Voz",
+ "piperbrowser.voice.hint": "Um nome de piper-voices, como pt_PT-tugão-medium. Vazio: a voz da língua do dispositivo.",
+ "piperbrowser.speaker": "Locutor",
+ "piperbrowser.speaker.hint": "Para uma voz com mais de um locutor; 0 é o primeiro.",
+ "piperbrowser.wait.hint": "Desligado: até a voz estar transferida, fala a voz de reserva. Ligado: espera, para um dispositivo sem rede de reserva.",
+ "piperbrowser.wait": "Esperar pela transferência"
+}

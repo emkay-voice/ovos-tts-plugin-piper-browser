@@ -1,0 +1,10 @@
+{
+ "piperbrowser.title": "Voz Piper",
+ "piperbrowser.intro": "Una voz Piper creada en el dispositivo, en el navegador. Se descarga una vez; después nada sale del dispositivo para hablar.",
+ "piperbrowser.voice": "Voz",
+ "piperbrowser.voice.hint": "Un nombre de piper-voices, como es_ES-davefx-medium. Vacío: la voz del idioma del dispositivo.",
+ "piperbrowser.speaker": "Hablante",
+ "piperbrowser.speaker.hint": "Para una voz con más de un hablante; 0 es el primero.",
+ "piperbrowser.wait.hint": "Desactivado: hasta que la voz se descargue, habla la voz de reserva. Activado: espera, para un dispositivo sin red de reserva.",
+ "piperbrowser.wait": "Esperar a la descarga"
+}
