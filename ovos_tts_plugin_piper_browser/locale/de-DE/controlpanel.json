@@ -1,5 +1,5 @@
 {
- "piperbrowser.title": "Piper-Stimme",
+ "piperbrowser.title": "Piper-Stimme im Browser",
  "piperbrowser.intro": "Eine Piper-Stimme, auf dem Gerät im Browser erzeugt. Sie wird einmal geladen; danach verlässt nichts das Gerät, um zu sprechen.",
  "piperbrowser.voice": "Stimme",
  "piperbrowser.voice.hint": "Ein Name aus piper-voices, z. B. de_DE-thorsten-medium. Leer: die Stimme für die Sprache des Geräts.",

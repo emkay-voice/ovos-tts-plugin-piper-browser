@@ -1,5 +1,5 @@
 {
- "piperbrowser.title": "Piper voice",
+ "piperbrowser.title": "Piper voice in the browser",
  "piperbrowser.intro": "A Piper voice made on the device, in the browser. It downloads once; after that nothing leaves the device to speak.",
  "piperbrowser.voice": "Voice",
  "piperbrowser.voice.hint": "A piper-voices name, like da_DK-talesyntese-medium. Empty: the voice for the device's language.",

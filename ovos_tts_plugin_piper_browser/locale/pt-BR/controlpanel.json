@@ -1,5 +1,5 @@
 {
- "piperbrowser.title": "Voz Piper",
+ "piperbrowser.title": "Voz Piper no navegador",
  "piperbrowser.intro": "Uma voz Piper feita no dispositivo, no navegador. É baixada uma vez; depois nada sai do dispositivo para falar.",
  "piperbrowser.voice": "Voz",
  "piperbrowser.voice.hint": "Um nome de piper-voices, como pt_BR-faber-medium. Vazio: a voz do idioma do dispositivo.",

@@ -1,5 +1,5 @@
 {
- "piperbrowser.title": "Piper-stem",
+ "piperbrowser.title": "Piper-stem in de browser",
  "piperbrowser.intro": "Een Piper-stem die op het apparaat wordt gemaakt, in de browser. Hij wordt één keer gedownload; daarna verlaat niets het apparaat om te spreken.",
  "piperbrowser.voice": "Stem",
  "piperbrowser.voice.hint": "Een naam uit piper-voices, zoals nl_NL-mls-medium. Leeg: de stem voor de taal van het apparaat.",
