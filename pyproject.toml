@@ -4,11 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ovos-tts-plugin-piper-browser"
-version = "0.1.0a3"
+version = "0.1.0a4"
 description = "OpenVoiceOS TTS plugin: Piper voices made in the browser, in WebAssembly"
 readme = "README.md"
 license = {text = "Apache-2.0"}
 authors = [{name = "emkay-voice"}]
+maintainers = [{name = "Andreas Lorensen"}]
 requires-python = ">=3.10"
 keywords = ["ovos", "openvoiceos", "plugin", "tts", "text-to-speech", "piper", "webassembly", "pyodide", "offline", "emkay"]
 classifiers = [
