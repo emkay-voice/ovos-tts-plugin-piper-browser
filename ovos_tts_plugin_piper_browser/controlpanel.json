@@ -1,0 +1,50 @@
+{
+ "controlpanel": 1,
+ "id": "piper-browser",
+ "title": "piperbrowser.title",
+ "group": "voice",
+ "order": 50,
+ "bus": "ovos.piper-browser.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "piperbrowser.intro"
+  },
+  {
+   "type": "module",
+   "kind": "tts"
+  },
+  {
+   "type": "form",
+   "save": {
+    "config": "tts.ovos-tts-plugin-piper-browser"
+   },
+   "fields": [
+    {
+     "name": "voice",
+     "label": "piperbrowser.voice",
+     "type": "text",
+     "hint": "piperbrowser.voice.hint",
+     "max_length": 100
+    },
+    {
+     "name": "speaker",
+     "label": "piperbrowser.speaker",
+     "type": "number",
+     "hint": "piperbrowser.speaker.hint",
+     "min": 0,
+     "max": 999,
+     "step": 1,
+     "default": 0
+    },
+    {
+     "name": "wait_for_download",
+     "label": "piperbrowser.wait",
+     "type": "checkbox",
+     "hint": "piperbrowser.wait.hint",
+     "default": false
+    }
+   ]
+  }
+ ]
+}

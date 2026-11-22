@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ovos-tts-plugin-piper-browser"
-version = "0.1.0a4"
+version = "0.1.0a5"
 description = "OpenVoiceOS TTS plugin: Piper voices made in the browser, in WebAssembly"
 readme = "README.md"
 license = {text = "Apache-2.0"}
@@ -33,3 +33,7 @@ ovos-tts-plugin-piper-browser = "ovos_tts_plugin_piper_browser:PiperBrowserTTS"
 
 [tool.setuptools]
 packages = ["ovos_tts_plugin_piper_browser"]
+
+# controlpanel.json is the plugin's page in ovos-control-panel
+[tool.setuptools.package-data]
+ovos_tts_plugin_piper_browser = ["controlpanel.json", "locale/*/controlpanel.json"]

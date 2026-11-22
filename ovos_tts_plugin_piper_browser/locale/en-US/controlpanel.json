@@ -1,0 +1,10 @@
+{
+ "piperbrowser.title": "Piper voice",
+ "piperbrowser.intro": "A Piper voice made on the device, in the browser. It downloads once; after that nothing leaves the device to speak.",
+ "piperbrowser.voice": "Voice",
+ "piperbrowser.voice.hint": "A piper-voices name, like da_DK-talesyntese-medium. Empty: the voice for the device's language.",
+ "piperbrowser.speaker": "Speaker",
+ "piperbrowser.speaker.hint": "For a voice with more than one speaker; 0 is the first.",
+ "piperbrowser.wait.hint": "Off: until the voice has downloaded, the fallback voice speaks. On: it waits, for a device with no network to fall back on.",
+ "piperbrowser.wait": "Wait for the download"
+}

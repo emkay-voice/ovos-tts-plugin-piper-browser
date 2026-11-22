@@ -58,6 +58,10 @@ sentence so `fallback_module` says it. With `"wait_for_download": true` it
 waits for the voice instead; for when there is no network to fall back on
 (Emkay's "local only" mode sets it).
 
+In the [control panel](https://github.com/OpenVoiceOS/ovos-control-panel) the plugin has a page under Voice: the voice, the speaker and
+`wait_for_download`, saved in the section above, and whether it is the voice
+in use, with a sentence to hear it (`controlpanel.json`).
+
 ## License
 
 Apache-2.0. espeak-ng, inside piper-wasm, is GPL-3.0; each Piper voice has the

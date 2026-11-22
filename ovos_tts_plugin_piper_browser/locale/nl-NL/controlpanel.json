@@ -1,0 +1,10 @@
+{
+ "piperbrowser.title": "Piper-stem",
+ "piperbrowser.intro": "Een Piper-stem die op het apparaat wordt gemaakt, in de browser. Hij wordt één keer gedownload; daarna verlaat niets het apparaat om te spreken.",
+ "piperbrowser.voice": "Stem",
+ "piperbrowser.voice.hint": "Een naam uit piper-voices, zoals nl_NL-mls-medium. Leeg: de stem voor de taal van het apparaat.",
+ "piperbrowser.speaker": "Spreker",
+ "piperbrowser.speaker.hint": "Voor een stem met meer sprekers; 0 is de eerste.",
+ "piperbrowser.wait.hint": "Uit: tot de stem gedownload is, spreekt de reservestem. Aan: hij wacht, voor een apparaat zonder netwerk om op terug te vallen.",
+ "piperbrowser.wait": "Wachten op de download"
+}
