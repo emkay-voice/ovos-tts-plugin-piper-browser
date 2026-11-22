@@ -1,5 +1,5 @@
 {
- "piperbrowser.title": "Veu Piper",
+ "piperbrowser.title": "Veu Piper al navegador",
  "piperbrowser.intro": "Una veu Piper feta al dispositiu, al navegador. Es baixa un cop; després res no surt del dispositiu per parlar.",
  "piperbrowser.voice": "Veu",
  "piperbrowser.voice.hint": "Un nom de piper-voices, com ca_ES-upc_ona-medium. Buit: la veu de la llengua del dispositiu.",

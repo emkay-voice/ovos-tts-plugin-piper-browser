@@ -1,5 +1,5 @@
 {
- "piperbrowser.title": "Piper-stemme",
+ "piperbrowser.title": "Piper-stemme i browseren",
  "piperbrowser.intro": "En Piper-stemme lavet på enheden, i browseren. Den hentes én gang; derefter forlader intet enheden, når den taler.",
  "piperbrowser.voice": "Stemme",
  "piperbrowser.voice.hint": "Et navn fra piper-voices, fx da_DK-talesyntese-medium. Tom: stemmen til enhedens sprog.",
